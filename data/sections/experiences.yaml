@@ -1,0 +1,60 @@
+# section information
+section:
+  name: Experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your experiences
+experiences:
+- company:
+    name: Rakuten (Ebates)
+    url: "https://www.rakuten.com"
+    location: San Mateo, CA
+    # company overview
+    overview: The leading cash-back website.
+  positions:
+  - designation: Senior Software Engineer
+    start: Mar 2017
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Break up our monolithic application into several microservices
+    - Design architectural solutions to technical problems
+    - Provided leadership and direction to teams across the company
+    - Heavily involved in recruiting, interviewing, and hiring process
+    - Host an office wide weekly book club
+
+- company:
+    name: Thermo Fisher Scientific (Life Technologies)
+    url: "https://www.thermofisher.com"
+    location: Carlsbad, CA
+    overview: The world leader in serving science.
+  positions:
+  - designation: Software Engineer III
+    start: Sep 2014
+    end: Mar 2017
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Technical lead and lead architect
+    - Built service-oriented framework in Python
+    - Built an integral framework responsible for connecting all Thermo Fisher devices the Cloud
+    - Lead technical discussions on design patterns, new technologies.
+    - Created Android service application to provide IoT connectivity
+
+- company:
+    name: The Experience Engine (Accesso)
+    url: "https://www.theexperienceengine.com"
+    location: Solana Beach, CA
+    overview: Experience management and real-time interaction platform.
+  positions:
+  - designation: Software Engineer II
+    start: Jul 2013
+    end: Aug 2014
+    responsibilities:
+    - Created RESTful web services in Java
+    - Created and managed numerous EC2 instances
+    - Gained extensive knowledge of OSGi

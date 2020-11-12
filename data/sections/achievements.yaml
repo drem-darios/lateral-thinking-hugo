@@ -1,0 +1,23 @@
+# section information
+section:
+  name: Achievements
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Book Club Host
+  image: images/achievements/presenter.jpg
+  summary: Host a weekly book club across the company that encompasses reading books, public presentations, and Udemy courses
+- title: Mentorship
+  image: images/achievements/mentoring.png
+  summary: Mentor in the Built By Girls WAVE mentorship program <br/> Part of the mentorship program at Rakuten
+- title: Graduation
+  image: images/achievements/graduation-cap.jpg
+  summary: Master of Science (M.Sc.) in Computer Science from San Diego State University (2014) <br/> Bachelor of Science (B.Sc.) in Computer Science from University of Central Florida (2011).
+- title: Certified
+  image: images/achievements/woman-winner.jpg
+  summary: AWS Solutions Architect - Associate <br/> AWS Developer - Associate <br/> Certified Scrum Master

@@ -1,0 +1,98 @@
+baseURL: https://drēm.com
+
+languageCode: en-us
+title: "drēm.com"
+theme: "hello-friend-ng"
+
+# Allow raw html in markdown file
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+# Enable Google Analytics
+googleAnalytics: UA-176433468-1
+
+# Enable Disqus forum
+disqusShortname: drem-com-site
+
+# Enable global emoji support
+enableEmoji: true
+
+# Site parameters
+params:
+  dateform: 'Jan 2, 2006'
+  dateformShort: Jan 2
+  dateformNum: '2006-01-02'
+  dateformNumTime: '2006-01-02 15:04'
+  homeSubtitle: Daily puzzles
+  disableReadOtherPosts: false
+  enableSharingButtons: true
+  description: Lateral thinking puzzles daily
+  keywords: 'homepage, blog'
+  defaultTheme: dark
+  # Copyright Notice
+  copyright: Drēm Darios © 2020 Copyright.
+  background_credit_user_website: https://unsplash.com/@otenteko?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText
+  background_credit_user: Anas Alshanti
+  background_credit_url: https://unsplash.com/s/photos/coding?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText
+  background_credit_website: Unsplash
+
+  # Meta for your site. This will help the search engines to find your site.
+  openGraph:
+    siteName: drēm.com
+    image: images/avatar-beard.png
+    url: https://drēm.com
+  # Meta description for your site.  This will help the search engines to find your site.
+  description: Hi, I'm Drēm! Welcome to my website :-)
+
+  # Background image of the landing page
+  background: "images/background.jpg"
+
+  # Provide logos for your site. The inverted logo will be used in the initial
+  # transparent navbar and the main logo will be used in the non-transparent navbar.
+  # It will default to the theme logos if not provided.
+  logo:
+    main: images/accent-logo.png
+    inverted: images/accent-logo-inverted.png
+    favicon: images/favicon.ico
+
+  enableTitle: false
+  # GitHub repo URL of your site
+  gitRepo: https://github.com/drem-darios/drem-com
+
+  # specify whether you want to write some blog posts or not
+  enableBlogPost: false
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+  # specify the list of custom menus that you want to show in the top navbar.
+  # they will be separated by a divider from the main menus.
+  # customMenus:
+  # - name: Notes
+  #   url: https://hossainemruz.gitbook.io/notes/
+
+
+languages:
+  en:
+    title: Lateral thinking puzzles
+    subtitle: A simple theme for Hugo
+    keywords: ''
+    copyright: Drēm Darios
+    params:
+      logo:
+        logoText: think hard
+        logoHomeLink: /
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about
+    - identifier: login
+      name: Login
+      url: /login

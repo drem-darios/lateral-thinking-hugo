@@ -1,0 +1,58 @@
+# section information
+section:
+  name: Skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+
+- name: Java
+  icon: "images/skills/java.png"
+  summary: "With 10+ years of professional Java experience, this is my go-to language. From SAAS applications to Android applications, I've done a little bit of everything in Java."
+  url: "https://java.com/"
+
+- name: Python
+  icon: "images/skills/python.png"
+  summary: "I primarily use Python for Lambdas in a serverless stack, but I have also used Python to build some incredible applications. It's great for fiddling around with Machine Learning libraries too!"
+  url: "https://python.org/"
+
+- name: Amazon Web Services
+  icon: "images/skills/cloud.png"
+  summary: "AWS has been the backbone of many of the highly avaiable, highly scalable applications I've built professionally. Holding two AWS certifications, I am well versed in both fully-managed and self-managed services."
+
+# - name: Bash
+#   icon: "images/skills/bash.png"
+#   summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+
+- name: Internet of Things
+  icon: "images/skills/iot.png"
+  summary: "Building an IoT framework that went on to serve millions of devices made me familiar with IoT principles and best practices such as data governance and security."
+
+- name: Serverless
+  icon: "images/skills/serverless.png"
+  summary: "Both in personal and professional projects, applying a serverless architecture to applications has proved to save cost while providing scale."
+  url: https://serverless.com/
+
+- name: Terraform
+  icon: "images/skills/terraform.png"
+  summary: "Infrastructure as code has been revolutionary. Terraform has allowed me to spin up and tear down entire applications while also providing change management and visibility."
+  url: https://terraform.io/
+
+- name: Microservices
+  icon: "images/skills/microservices.png"
+  summary: "Monoliths are a thing of the past. I have experience bringing companies into the future by breaking up components by their domains and identifing context boundaries."
+  url: "https://microservices.io"
+
+- name: Kubernetes
+  icon: "images/skills/kubernetes.png"
+  summary: "Containerizing with Docker makes deployment easy. Kubernetes makes orchestrating deployments easy. I am capable of deploying and managing application running on Kubernetes."
+  url: https://kubernetes.io/
+
+- name: Web Development
+  icon: "images/skills/web.png"
+  summary: "Grokking the user experience is importent when building a product people want to use. React and Angular are two web frameworks I find to be great when building web applications."

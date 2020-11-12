@@ -1,0 +1,96 @@
+# section information
+section:
+  name: Projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Consultation
+  filter: "consultation"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+
+- name: Gun Gun Shoot
+  logo: images/projects/serverless.png
+  role: Creator
+  timeline: "2019"
+  url: https://gungunshoot.com
+  summary: Serverless project of a Rock Paper Scissors type game, but with strategy and guns
+  tags: ["hobby", "gun gun shoot","fun", "website", "angular"]
+
+- name: Hot Cold App
+  logo: images/projects/android.png
+  role: Creator
+  timeline: "2013"
+  repo: https://github.com/drem-darios/Hot-Cold
+  summary: The Hot-Cold game we used to play as kids, converted into an Android app that uses Bluetooth Beacons
+  tags: ["academic", "fun", "bluetooth", "blue", "project"]
+
+- name: Class Rewind
+  logo: images/projects/java.png
+  role: Consultant
+  timeline: "2014"
+  summary: Software built as an educational supplement that allows students to re-watch the class at home while the teacher remains in control of who gets to view the recording
+  tags: ["consultation", "project", "java"]
+
+- name: Deep Laser
+  role: Creator
+  logo: images/projects/python.png
+  timeline: "2015"
+  summary: Service Oriented framework designed to connect any device to the cloud
+  tags: ["professional", "osgi", "project", "python"]
+
+- name: Jeasy - Easy Rules
+  logo: images/projects/java.png
+  role: Contributor
+  timeline: "2015"
+  repo: https://github.com/j-easy/easy-rules # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  # url: https://www.jeasy.org/
+  summary: Lightweight POJO based Rules Engine
+  tags: ["professional", "rules engine", "github", "java"]
+
+- name: Turing Machine
+  role: Owner
+  logo: images/projects/java.png
+  timeline: "2011"
+  repo: https://github.com/drem-darios/Turing-Machine
+  summary: A turing machine built in Java
+  tags: ["academic","computer science","grad school", "school", "project"]
+
+- name: Image Rekognition
+  role: Owner
+  logo: images/projects/python.png
+  repo: https://github.com/drem-darios/Image-Rekognition
+  timeline: "2020"
+  # url: "https://www.example.com"
+  summary: Serverless app that provides data points about an uploaded image
+  tags: ["hobby","aws", "serverless"]
+
+- name: Mandelbrot Set
+  role: Owner
+  logo: images/projects/java.png
+  timeline: "2008"
+  repo: https://github.com/drem-darios/Mandelbrot
+  summary: Visualizing the Mandelbrot set in Java
+  tags: ["academic", "computer science", "project", "mandelbrot", "ui", "swing", "java"]
+
+- name: iRemember
+  role: Consultant
+  logo: images/projects/java.png
+  timeline: "2017"
+  summary: A platform for capturing video and images from events and posting them on Instagram
+  tags: ["consultation", "instagram", "java"]
